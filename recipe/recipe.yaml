@@ -2,17 +2,15 @@ schema_version: 1
 
 context:
   name: Muscat
-  version: 2.5.1.1
+  version: 2.5.2RC1
 
 recipe:
   name: muscat-split
   version: ${{ version }}
 
-
-
 source:
   - url: https://gitlab.com/drti/muscat/-/archive/${{ version }}/${{ name|lower }}-${{ version }}.tar.bz2
-    sha256: 3b33ddb7ce78551337d18935f571abe2c009641381663b69e76eb8dc0f961278
+    sha256: e5c149405d04ecd1dcfde863cc33a37739cbb3527184648c1abb937caca1e436
 
 build:
   number: 0
